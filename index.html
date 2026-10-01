@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="css/estilos.min.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+        <img src="img/tareas.svg" alt="Ilustración de una lista de tareas" class="imagen-tareas">
+        <h1>Mi lista de tareas</h1>
+
+        <div class="entrada-tarea">
+            <input 
+                type="text" 
+                id="tareaInput" 
+                placeholder="Escribe una tarea..."
+            >
+
+            <button id="agregarBtn">Agregar</button>
+        </div>
+
+        <ul id="listaTareas"></ul>
+    </main>
+
+    <script src="js/app.min.js"></script>
+</body>
+</html>
